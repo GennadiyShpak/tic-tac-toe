@@ -8,6 +8,7 @@ import { ToGameBtnComponent } from './components/to-game-btn/to-game-btn.compone
 import { GameFieldComponent } from './components/game-field/game-field.component';
 import { GameCellComponent } from './components/game-field/game-cell/game-cell.component';
 import { UpButtonComponent } from './components/up-button/up-button.component';
+import { StatisticComponent } from './components/statistic/statistic.component';
 
 
 
@@ -20,6 +21,7 @@ import { UpButtonComponent } from './components/up-button/up-button.component';
     NavComponent,
     ToGameBtnComponent,
     UpButtonComponent,
+    StatisticComponent,
   ],
   imports: [
     CommonModule,
@@ -30,7 +32,8 @@ import { UpButtonComponent } from './components/up-button/up-button.component';
     FooterComponent,
     NavComponent,
     ToGameBtnComponent,
-    UpButtonComponent
+    UpButtonComponent,
+    StatisticComponent
   ]
 })
 export class SharedModule { }
