@@ -19,6 +19,7 @@ import { ResetPasswordComponent } from './components/modals/reset-password/reset
 import { ConfirmAccountComponent } from './components/message-page/confirm-account/confirm-account.component';
 import { SentInstructionComponent } from './components/message-page/sent-instruction/sent-instruction.component';
 import { WelcomeComponent } from './components/message-page/welcome/welcome.component';
+import { PasswordComponent } from './components/message-page/password/password.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { WelcomeComponent } from './components/message-page/welcome/welcome.comp
     ConfirmAccountComponent,
     SentInstructionComponent,
     WelcomeComponent,
+    PasswordComponent,
   ],
   imports: [
     CommonModule,
@@ -65,7 +67,8 @@ import { WelcomeComponent } from './components/message-page/welcome/welcome.comp
     ResetPasswordComponent,
     ConfirmAccountComponent,
     SentInstructionComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    PasswordComponent
   ]
 })
 export class SharedModule { }
