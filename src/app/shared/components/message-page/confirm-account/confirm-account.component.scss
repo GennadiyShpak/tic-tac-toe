@@ -1,0 +1,26 @@
+.msg-confirm{
+    width: 32.5rem;
+    margin: auto;
+    text-align: center;
+
+    @media (max-width:709px) {
+        width: 18.5rem;        
+    }
+
+    .title{
+        margin: 2rem auto;
+        font-size: 1.5rem;
+
+        @media (max-width:709px) {
+            font-size: 1.125rem;            
+        }
+    }
+
+    .message{
+        font-size: 1rem;
+
+        @media (max-width:709px) {
+            font-size: .875rem;            
+        }
+    }
+}

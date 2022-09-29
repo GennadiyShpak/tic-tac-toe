@@ -1,0 +1,17 @@
+@import "../../../../../assets/styles/variables.scss";
+
+.leave_round{
+    height: 11.438rem;
+    justify-content: space-between;
+    padding: 1.5rem;
+
+    .title{
+        font-size: 1.25rem;
+        font-weight: bolder;
+    }
+
+    .link{
+        width: 9.875rem;
+        height: 2.375rem;
+    }
+}

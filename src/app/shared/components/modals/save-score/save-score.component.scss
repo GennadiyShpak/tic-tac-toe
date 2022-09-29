@@ -1,0 +1,42 @@
+@import "../../../../../assets/styles/variables.scss";
+
+.save_score{
+
+    @media (max-width:709px) {
+        padding: 1rem;        
+        width: 21.625rem;
+        height: 10.813rem;
+    }
+
+    .title{
+        font-size: 1.25rem;
+        font-weight: bolder;
+        font-style: normal;
+        margin-bottom: .5rem;
+    }
+
+    .message{
+        @media (max-width:709px) {
+            text-align: start;
+        }
+    }
+
+    .link{
+        width: 7rem;
+        height: 2.375rem;
+    }
+
+    .modal_buttons{
+        margin-top: 1.5rem;
+        @media (max-width:709px) {
+            justify-content: flex-start;
+        }
+    }
+
+    .primary-link{
+        @media (max-width:709px) {
+            width: 4.313rem;
+            margin-left: .75rem;
+        }
+    }
+}

@@ -78,3 +78,16 @@ body {
     max-width: 343px;
   }
 }
+
+.modal-alert{
+  width: 23.5rem;
+  height: 10.438rem;
+  align-items: center;
+  justify-content: space-around;
+  background-color: $yellow-gray-color;
+  border-radius: .5rem;
+  font-size: .875rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 1.5rem .5rem;
+}

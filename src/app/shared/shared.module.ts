@@ -12,6 +12,13 @@ import { ComplexityComponent } from './components/complexity/complexity.componen
 import { SymbolComponent } from './components/symbol/symbol.component';
 import { RedirectAuthorizeComponent } from './components/modals/redirect-authorize/redirect-authorize.component';
 import { ProfileComponent } from './components/profile/profile.component';
+import { SaveScoreComponent } from './components/modals/save-score/save-score.component';
+import { LeaveRoundComponent } from './components/modals/leave-round/leave-round.component';
+import { SuccessfullSavedComponent } from './components/modals/successfull-saved/successfull-saved.component';
+import { ResetPasswordComponent } from './components/modals/reset-password/reset-password.component';
+import { ConfirmAccountComponent } from './components/message-page/confirm-account/confirm-account.component';
+import { SentInstructionComponent } from './components/message-page/sent-instruction/sent-instruction.component';
+import { WelcomeComponent } from './components/message-page/welcome/welcome.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +34,13 @@ import { ProfileComponent } from './components/profile/profile.component';
     SymbolComponent,
     RedirectAuthorizeComponent,
     ProfileComponent,
+    SaveScoreComponent,
+    LeaveRoundComponent,
+    SuccessfullSavedComponent,
+    ResetPasswordComponent,
+    ConfirmAccountComponent,
+    SentInstructionComponent,
+    WelcomeComponent,
   ],
   imports: [
     CommonModule,
@@ -44,7 +58,14 @@ import { ProfileComponent } from './components/profile/profile.component';
     ComplexityComponent,
     SymbolComponent,
     RedirectAuthorizeComponent,
-    ProfileComponent
+    ProfileComponent,
+    SaveScoreComponent,
+    LeaveRoundComponent,
+    SuccessfullSavedComponent,
+    ResetPasswordComponent,
+    ConfirmAccountComponent,
+    SentInstructionComponent,
+    WelcomeComponent
   ]
 })
 export class SharedModule { }
