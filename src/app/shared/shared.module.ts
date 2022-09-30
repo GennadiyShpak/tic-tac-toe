@@ -20,6 +20,8 @@ import { ConfirmAccountComponent } from './components/message-page/confirm-accou
 import { SentInstructionComponent } from './components/message-page/sent-instruction/sent-instruction.component';
 import { WelcomeComponent } from './components/message-page/welcome/welcome.component';
 import { PasswordComponent } from './components/message-page/password/password.component';
+import { PasswordValidationComponent } from './components/password-validation/password-validation.component';
+import { PasswordInputComponent } from './components/password-input/password-input.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +45,8 @@ import { PasswordComponent } from './components/message-page/password/password.c
     SentInstructionComponent,
     WelcomeComponent,
     PasswordComponent,
+    PasswordValidationComponent,
+    PasswordInputComponent,
   ],
   imports: [
     CommonModule,
@@ -61,14 +65,13 @@ import { PasswordComponent } from './components/message-page/password/password.c
     SymbolComponent,
     RedirectAuthorizeComponent,
     ProfileComponent,
-    SaveScoreComponent,
     LeaveRoundComponent,
     SuccessfullSavedComponent,
     ResetPasswordComponent,
     ConfirmAccountComponent,
     SentInstructionComponent,
     WelcomeComponent,
-    PasswordComponent
+    PasswordComponent,
+    PasswordValidationComponent,
   ]
 })
-export class SharedModule { }
