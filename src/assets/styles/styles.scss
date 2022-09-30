@@ -80,17 +80,21 @@ body {
 }
 
 .modal-alert{
-  width: 23.5rem;
-  height: 10.438rem;
+  width: 376px;
+  height: 167px;
   align-items: center;
   justify-content: space-around;
   position: relative;
   background-color: $yellow-gray-color;
-  border-radius: .5rem;
-  font-size: .875rem;
+  border-radius: 8px;
+  font-size: 14px;
   font-weight: 700;
   text-align: center;
-  padding: 1.5rem .5rem;
+  padding: 24px 8px;
+
+  @media (max-width:709px) {
+    width: 340px;    
+  }
 }
 
 .btn-close{

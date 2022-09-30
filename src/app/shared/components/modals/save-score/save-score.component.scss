@@ -2,17 +2,17 @@
 
 .save_score{
 
-    @media (max-width:709px) {
-        padding: 1rem;        
-        width: 21.625rem;
-        height: 10.813rem;
+    @media (max-width:709px) {       
+        width: 346px;
+        height: 173px;
+        padding: 16px; 
     }
 
     .title{
-        font-size: 1.25rem;
+        font-size: 20px;
         font-weight: bolder;
         font-style: normal;
-        margin-bottom: .5rem;
+        margin-bottom: 8px;
     }
 
     .message{
@@ -22,12 +22,12 @@
     }
 
     .link{
-        width: 7rem;
-        height: 2.375rem;
+        width: 112px;
+        height: 38px;
     }
 
     .modal_buttons{
-        margin-top: 1.5rem;
+        margin-top: 24px;
         @media (max-width:709px) {
             justify-content: flex-start;
         }
@@ -35,8 +35,8 @@
 
     .primary-link{
         @media (max-width:709px) {
-            width: 4.313rem;
-            margin-left: .75rem;
+            width: 70px;
+            margin-left: 12px;
         }
     }
 }
